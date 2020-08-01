@@ -1,3 +1,8 @@
+/*
+	Learning main function arguments in c++
+*/
+
+
 #include <iostream>
 #include <string.h>
 
