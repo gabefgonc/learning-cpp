@@ -11,7 +11,7 @@ entry = Entry(app)
 entry.pack()
 
 def c():
-    os.system(f"gnome-terminal --command 'zsh -c \"g++ -o ./{os.path.splitext(entry.get())[0]} {entry.get()}; ./{os.path.splitext(entry.get())[0]}\"'")
+    os.system(f"gnome-terminal --command 'zsh -c \"g++ -o ./{os.path.splitext(entry.get())[0]} {entry.get()}; ./{os.path.splitext(entry.get())[0]}; sleep 30\"'")
 
 
 # Button
